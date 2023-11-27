@@ -1,0 +1,1 @@
+# wp6-frontend-test
