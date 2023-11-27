@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="leaflet.css"/>
+  </head>
+  <body>
+    <main>
+        <h1>Biodiversity Connectivity Scenario Analysis</h1>
+
+        <section id = "step-1">
+          1. Upload the input data, (see <a href="/placeholder">here</a> for how to generate this):
+          <form>
+            A Land Usage Map:
+            <input type="file" id="lu-file-input" class="tiff-input" name="Land Usage"/>
+          </form>
+          <form>
+            An Impedance Map:
+            <input type="file" id="roads-file-input" class="tiff-input" name="Impedance"/>
+          </form>
+        </section>
+
+        <section id = "step-2">
+        2. Draw your intended intervention onto the map as a polygon.
+        </section>
+        
+        <div id="map" style="height:400px; width:100%; margin-top: 1em;"></div>
+
+        When ready
+
+        <script src="main.js"></script>
+    </main>
+  </body>
+</html>
